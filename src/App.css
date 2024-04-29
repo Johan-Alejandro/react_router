@@ -1,0 +1,30 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.me-auto {
+  font-weight: 600;
+}
+.Gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.Gallery img {
+  width: 300px;
+  height: 240px;
+  margin-top: 5px;
+}
+@media (max-width: 767px) {
+  .Gallery {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 16 0 16 0;
+  }
+}
